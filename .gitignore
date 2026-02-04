@@ -1,0 +1,33 @@
+### IntelliJ IDEA  ###  all files you want to stay local on your machine (files that program creates that changes often)
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### everything in the idea folder, iml file (personal?) only want to put src file in there, and any gradle things
+.idea/*
+*.iml
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
